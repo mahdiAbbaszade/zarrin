@@ -1,0 +1,72 @@
+.tab-trw {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tab-trw > div {
+  flex: 1;
+  position: relative;
+}
+.tab-trw > div > ul {
+  display: flex !important;
+  margin: 0 !important;
+  border: hidden !important;
+}
+.tab-trw > div > ul li {
+  background: #6b747e;
+  list-style: none !important;
+
+}
+.tab-trw > div > ul li button {
+  padding: 0.5rem 4rem;
+}
+.tab-trw .nav-tabs .nav-link.active {
+  border: hidden !important;
+  margin: 0 !important;
+  background-color: #3d4750 !important;
+}
+.tab-trw > div > ul button:hover {
+  isolation: unset !important;
+  border: 1px solid white;
+  border-top: hidden !important;
+  color: unset !important;
+  background-color: #6b747e !important;
+  cursor: pointer !important;
+}
+
+
+.tab-trw > div > ul button:hover > img {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+
+.tab-trw > div > ul button.active img {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+.icons-tabs-trw {
+  object-fit: cover;
+  width: 2.5rem;
+  height: 2.2rem;
+}
+.tab-trw .nav-tabs .nav-link {
+  margin-bottom: -2px !important;
+  border-radius: 0 !important;
+  border: 1px solid white;
+  border-top: hidden !important;
+}
+
+.Truck{
+object-fit: contain !important;
+width: 4rem;
+height: 2.2rem;
+}
+
+.bg-tab {
+  background-color: #3d4750 !important;
+}
+
+.kamiuon {
+  width: 4rem;
+  height: 2.2rem;
+}

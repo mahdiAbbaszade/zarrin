@@ -1,0 +1,32 @@
+.css-1s2u09g-control {
+  border: 1px solid #dddddd !important;
+  /* max-width: 300px !important; */
+}
+.css-1s2u09g-control ,.css-1pahdxg-control .css-qc6sy-singleValue {
+  font-family: "yekanBold" !important;
+}
+.css-1s2u09g-control .css-qc6sy-singleValue{
+  font-size: 0.85rem !important;
+}
+.css-1pahdxg-control .css-qc6sy-singleValue{
+  font-size: 0.85rem !important;
+}
+.css-lpahdxg-control:hover .css-qc6sy-singleValue {
+  font-family: "yekanBold" !important;
+}
+
+.css-1pahdxg-control {
+  border: hidden !important;
+  border-color: transparent !important;
+}
+.css-1pahdxg-control:hover {
+  border: hidden !important;
+  border-color: transparent !important;
+}
+
+
+
+.css-14el2xx-placeholder{
+  font-size: 0.75rem !important;
+  color: #b2bec3 !important;
+}

@@ -1,0 +1,100 @@
+.container___items_tab {
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+}
+
+.items_tabs {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center !important;
+}
+.items_tabs > h5 {
+  font-family: "yekanBold" !important;
+  margin: 0;
+  color: #2f3542;
+  padding-left: 3rem;
+  margin-right: -4rem !important;
+}
+
+.items_tabs > .nav {
+  display: flex;
+  justify-content: center;
+}
+.items_tabs > nav {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  margin: 0 1.5rem;
+  flex-wrap: wrap;
+  overflow: hidden !important;
+}
+.items_tabs .nav-item {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 0 0.1rem;
+  background-color: #47535f !important;
+  overflow: hidden !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  width: 200px !important;
+}
+
+.items_tabs .nav-item:hover {
+  background-color: #3d4750 !important;
+}
+
+.items_tabs .nav-link {
+  color: #fff !important;
+  text-align: center !important;
+}
+.items_tabs .active {
+  overflow: hidden !important;
+  border-radius: none !important;
+  background-color: #47535f !important;
+}
+
+.items_tabs .active img {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+
+img {
+  width: 2rem;
+  height: 2rem;
+}
+
+@media all and (max-width: 1200px) {
+  .items_tabs {
+    flex-direction: column-reverse !important;
+  }
+  .items_tabs > h5 {
+    text-align: center;
+    padding-left: 0rem;
+    margin-right: 0rem !important;
+    padding-bottom: 0.75rem;
+  }
+  .items_tabs .nav-item {
+   
+    margin: 0.75rem 0.1rem !important;
+  }
+}
+
+@media all and (max-width: 770px) {
+  .items_tabs {
+    flex-direction: column-reverse;
+  }
+  .items_tabs > h5 {
+    text-align: center;
+    padding-left: 0rem;
+    margin-right: 0rem !important;
+    padding-bottom: 0.75rem;
+  }
+  .items_tabs > .nav {
+    flex-direction: column !important;
+  }
+  .items_tabs .nav-item {
+    margin: 0.75rem 0 !important;
+  }
+}

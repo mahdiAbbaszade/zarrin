@@ -1,0 +1,31 @@
+body {
+  overflow: hidden;
+}
+.container-page {
+  display: grid;
+  grid-template-columns: 70%;
+  justify-content: center;
+  position: relative;
+  gap: 4rem;
+}
+
+@media all and (max-width: 900px) {
+  .container-page {
+    grid-template-columns: 85%;
+  }
+}
+@media all and (max-width: 768px) {
+  .container-page {
+    grid-template-columns: 100%;
+  }
+}
+
+.container_slider {
+  display: none !important;
+}
+
+@media all and (max-width: 768px) {
+  .container_slider {
+    display: block !important;
+  }
+}

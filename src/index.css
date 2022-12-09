@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "yekanBold";
+  src: url("./assest/fonts/IRANYekanBold.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  direction: rtl;
+  overflow: hidden !important;
+}
+.select-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4rem 0;
+}
+
+.select-container > .css-b62m3t-container {
+  flex: 1 !important;
+  max-width: 400px;
+  margin: 0 0.35rem;
+}
+
+.select-container-single {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0rem 0.20rem;
+}
+
+.select-container-single > .css-b62m3t-container {
+  flex: 1 !important;
+  max-width: 400px;
+  margin: 0 0.35rem;
+}
+
+.select-container-four {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.select-container-four > .css-b62m3t-container {
+  flex: 1 !important;
+  max-width: 400px;
+  margin: 0 0.35rem;
+}
+@media all and (max-width: 770px) {
+  .select-container-single {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.85rem 0 !important;
+  }
+  .select-container-single > .css-b62m3t-container {
+    flex: 1 !important;
+    min-width: 200px !important;
+    padding: 0.75rem 0;
+  }
+}
+
+
